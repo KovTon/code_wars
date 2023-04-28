@@ -16,7 +16,7 @@ def openOrSenior(data):
         "Senior" if age >= 55 and handicap >= 8 else "Open"  # тернарный оператор
         for age, handicap
         in data
-    ] # лист компрехеншн
+    ]  # лист компрехеншн
 
 # это тоже самое что -> age, handicap = data 
 age = data[0]
