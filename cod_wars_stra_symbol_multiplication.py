@@ -8,7 +8,7 @@ def calculator(txt):
 # Это идеальное и красивое решение(Паша)
 
 
-def calculator(txt):
+def calculator_ideal(txt):
     a, op, b = txt.split()
     a, b = len(a), len(b)
     return '.' * eval(f'{a} {op} {b}')
