@@ -1,7 +1,22 @@
-def get_drink_by_profession(param:str):
+def get_drink_by_profession(param: str):
     param = param.lower().title()
-    visitors = ["Jabroni", "School Counselor", "Programmer", "Bike Gang Member", "Politician", "Rapper"]
-    drinks = ["Patron Tequila", "Anything with Alcohol", "Hipster Craft Beer", "Moonshine", "Your tax dollars", "Cristal"]
+
+    visitors = ["Jabroni",
+                "School Counselor",
+                "Programmer",
+                "Bike Gang Member",
+                "Politician",
+                "Rapper"
+                ]
+
+    drinks = ["Patron Tequila",
+              "Anything with Alcohol",
+              "Hipster Craft Beer",
+              "Moonshine",
+              "Your tax dollars",
+              "Cristal"
+              ]
+
     visitors_drink_preferences = dict(zip(visitors, drinks))
     drink = ''
     try:
